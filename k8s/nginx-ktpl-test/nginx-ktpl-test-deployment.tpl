@@ -42,4 +42,4 @@ spec:
             cpu: {{ .CPU_REQUEST }}
         env:
         - name: ENV_KEY
-          value: $ENV_KEY
+          value: {{ .ENV_KEY }}
